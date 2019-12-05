@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#SBATCH --job-name="void_train"
+#SBATCH --output="voidlog.%j.%N.out"
+#SBATCH --error="voidlog.%j.%N.err"
+#SBATCH --partition=gpux4
+#SBATCH --gres=gpu:v100:4
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=48
+#SBATCH -t 48:00:00
+module purge
+module load wmlce
+
+
+
+cd $PBS_O_WORKIR
+
+
+python /home/zjin16/void_project/void_train_count.py
