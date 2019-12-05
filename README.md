@@ -42,6 +42,8 @@ Since directly spot cosmic void from 2D galaxy images turns out to be a little h
 The main difference here is this time we reconstruct ResNet's last layer's architecture to be just the number of voids.
 
 The result after 20 times training episode can be summarized in the following plot, where the red line is prediction=truth. It's obvious that our nerual network does detects some trend about number of voids. With more training time it should do even better!
+
+
 ![](counts_result.png)
 
 # Future work
