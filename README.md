@@ -4,7 +4,8 @@ This project uses **Convolutional Neural Network** to spot cosmic voids/dark mat
 It also constructs a pipeline for training Astrophysics datasets that can be used in many other cases with little modification.
 
 Collaborator: [Joshua Yao-Yu Lin](https://github.com/joshualin24), PhD student in university of illinois urbana champaign
-Data from: Arka Banerjee, PhD student in university of illinois urbana champaign
+
+Data from: Arka Banerjee, Post Doc in Standford
 
 Codes are ran on NCSA [Hardware-Accelerated Learning (HAL) cluster](https://wiki.ncsa.illinois.edu/display/ISL20/HAL+cluster)-This work utilizes resources supported by the National Science Foundation’s Major Research Instrumentation program, grant #1725729, as well as the University of Illinois at Urbana-Champaign
 
